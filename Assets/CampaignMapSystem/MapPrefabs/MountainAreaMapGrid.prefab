@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1889758803113694082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1889758803113694080}
+  - component: {fileID: 1889758803113694087}
+  m_Layer: 0
+  m_Name: MountainAreaMapGrid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1889758803113694080
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889758803113694082}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1889758803113694087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889758803113694082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 473d98a98a85eb040b616afa9a980286, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridWidth: 20
+  gridHeight: 20
+  tileSize: 10
+  tileOffset: 0.1
+  baseTileVisuals: {fileID: 5659885955181181418, guid: 938b29f6a714a484d876c91dffe2b4b3,
+    type: 3}
+  plainsVisuals: {fileID: 5659885955181181418, guid: cd21cac60c52fc24aae31f4dc62f1f40,
+    type: 3}
+  baseHillChance: 0
+  growthHillChance: 12
+  hillVisuals: {fileID: 5659885955181181418, guid: c37bad0bfb82a704c9dffc9fbcd28ef4,
+    type: 3}
+  baseMountainChance: 12
+  growthMountainChance: 35
+  mountainVisuals: {fileID: 5659885955181181418, guid: d45c320ec504f3c4a9b7c49cbea31e97,
+    type: 3}
+  baseWaterChance: 0
+  growthWaterChance: 50
+  waterVisuals: {fileID: 5659885955181181418, guid: 9daf5d1ac9d9499458f5a33c183ae0a9,
+    type: 3}
+  numberOfTerrainGrowthRuns: 3
+  baseForestChance: 6
+  growthForestChance: 12
+  forestVisuals: {fileID: 5599857921692903523, guid: 85755161d88df8b459ebc27ce185fe0d,
+    type: 3}
+  baseSwampChance: 2
+  growthSwampChance: 10
+  swampVisuals: {fileID: 0}
+  baseDesertChance: 0
+  growthDesertChance: 0
+  desertVisuals: {fileID: 0}
+  numberOfBiomeGrowthRuns: 6
+  baseNodeChance: 40
+  baseVillageChance: 40
+  spreadFactorVillage: 2
+  villageVisuals: {fileID: 2035858334864166050, guid: 33241485264db65439048c176e1f4b96,
+    type: 3}
+  baseCityChance: 30
+  spreadFactorCity: 4
+  cityVisuals: {fileID: 1055035508012793184, guid: f2895af3f2a2df540a3b7ca04c08e362,
+    type: 3}
+  baseOutpostChance: 20
+  spreadFactorOutpost: 2
+  outpostVisuals: {fileID: 3731242381792753973, guid: ec2f3ddf484721c4b89e06409a4fa4d3,
+    type: 3}
+  baseCastleChance: 100
+  spreadFactorCastle: 7
+  castleVisuals: {fileID: 7779859980555678795, guid: 29b9a0250225aa3498a94c8fd7f83df2,
+    type: 3}
+  baseTraderChance: 10
+  spreadFactorTrader: 8
+  traderVisuals: {fileID: 3778424151231975508, guid: 85730dd0ef0efcc468e2dfe83c1f94ad,
+    type: 3}
+  baseCovenChance: 75
+  spreadFactorCoven: 8
+  covenVisuals: {fileID: 309489592218019668, guid: 186b6ed42745d9b49b7d72646af9ddc9,
+    type: 3}
+  baseBanditCampChance: 50
+  spreadFactorBanditCamp: 2
+  banditCampVisuals: {fileID: 8045623742930037029, guid: c3121e51bb0a0114da0240fc2fde8a4b,
+    type: 3}

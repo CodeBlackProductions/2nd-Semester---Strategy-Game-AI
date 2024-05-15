@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4251105724773631829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4251105724773631830}
+  - component: {fileID: 4497044973286880210}
+  m_Layer: 0
+  m_Name: UnitSelection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4251105724773631830
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4251105724773631829}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4497044973286880210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4251105724773631829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4720721eb4bdee449b63eaa1de7f028b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groupFormation: 1
+  groupStance: 0
+  formationSlotPrefab: {fileID: 7766246063776090902, guid: 4923f842b0c29c14baa4ad473519f1c8,
+    type: 3}
+  slotXSize: 3.5
+  slotZSize: 4
+  unitPrefab: {fileID: 1899533872319749871, guid: f9e313b33232baf40aa655259c0f2177,
+    type: 3}
+  heavyUnitPrefab: {fileID: 4458044714045201056, guid: 33c7d90880279844490f7c673a24137e,
+    type: 3}
+  TwoHandedUnitPrefab: {fileID: 6789820324970230990, guid: eb1c6619a173c994db0638115d1805ab,
+    type: 3}
+  RangeUnitPrefab: {fileID: 4918576440712999826, guid: 9430aaa556c14b641b01f428f2decd9f,
+    type: 3}
+  UnitGroupPrefab: {fileID: 4251105724773631829, guid: b361f275796b7f24f8f5e43b2d3b42b6,
+    type: 3}
